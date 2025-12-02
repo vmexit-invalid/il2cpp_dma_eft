@@ -13,7 +13,7 @@ Dumper attaches to EFT and extracts IL2CPP class metadata.
 Physical memory acquisition setup supported by LeechCore/MemProcFS, for example:
 
 - PCIe DMA hardware supported by **PCILeech / LeechCore** (FPGA, USB3380, etc.)
-- Or a MemProcFS supported software acquisition method (DumpIt, WinPMEM, etc.)
+- MemProcFS supported software acquisition method (DumpIt, WinPMEM, etc.)
 
 Refer to ufrisk projects for supported devices and methods:
 
