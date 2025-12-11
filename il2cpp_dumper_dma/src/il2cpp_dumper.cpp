@@ -77,7 +77,7 @@ static uint64_t FindMetadataViaExportAnchors(DMAController& dma, ProcessMap& pro
         if (found == 0)
             continue;
 
-        const uint64_t movOpcodeOffset = 12;
+        const uint64_t movOpcodeOffset = 14;
         const uint64_t dispOffset = movOpcodeOffset + 3;
         int32_t disp32 = dma.ReadValue<int32_t>(found + dispOffset);
         uint64_t movInstruction = found + movOpcodeOffset;
